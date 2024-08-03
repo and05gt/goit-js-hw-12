@@ -21,7 +21,7 @@ export function renderImage(data) {
     )
     .join('');
 
-  gallery.insertAdjacentHTML('afterbegin', imagesMarkup);
+  gallery.insertAdjacentHTML('beforeend', imagesMarkup);
 
   const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',

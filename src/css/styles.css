@@ -224,3 +224,7 @@ input:focus {
 .loader-active {
   display: block;
 }
+
+.hidden {
+  display: none;
+}
