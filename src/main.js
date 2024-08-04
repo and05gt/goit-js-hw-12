@@ -74,6 +74,7 @@ async function fetchImages() {
 
 async function handleLoadMore() {
   page += 1;
+  loadBtn.classList.add('hidden');
   loader.classList.add('loader-active');
   await fetchImages();
 }
